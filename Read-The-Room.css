@@ -260,7 +260,6 @@
   min-height: 842px;
   margin-top: 29px;
   margin-bottom: 50px;
-  height: auto;
 }
 
 .u-section-2 .u-tab-link-1 {
@@ -775,6 +774,7 @@
 .u-section-2 .u-image-15 {
   min-height: 210px;
   background-image: url("images/underrob1.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-9 {
@@ -784,6 +784,7 @@
 .u-section-2 .u-image-16 {
   min-height: 210px;
   background-image: url("images/underrob2.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-10 {
@@ -791,13 +792,16 @@
 }
 
 .u-section-2 .u-custom-html-1 {
-  height: auto;
   min-height: 323px;
   width: 1064px;
   margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-tabs-1 {
+    height: auto;
+  }
+
   .u-section-2 .u-gallery-1 {
     width: 940px;
   }
@@ -933,6 +937,7 @@
   }
 
   .u-section-2 .u-custom-html-1 {
+    height: auto;
     width: 940px;
   }
 }
